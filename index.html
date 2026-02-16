@@ -1,25 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Just for You 💖</title>
-  <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday!</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <div class="container">
-    <h1 class="header">💌 A Special Message for You</h1>
-    <p class="message">Even though we're far apart, my heart is always with you. Will you be mine forever? 💍</p>
-    
-    <form id="replyForm">
-      <label for="reply">Your Answer (Yes / Maybe💬)</label>
-      <textarea id="reply" placeholder="Write your reply here..."></textarea>
-      <button type="submit">Send Reply 💌</button>
-    </form>
 
-    <p class="footnote">Your reply will open my Snapchat directly 📲</p>
-  </div>
+    <canvas id="confetti-canvas"></canvas>
 
-  <script src="script.js"></script>
+    <header>
+        <h1>Happy Birthday, [FAV]! 🎈</h1>
+        <p>Celebrating another year of you being awesome.</p>
+    </header>
+
+    <div class="photo-container">
+        <img src="file:///C:/Users/JOSHUA/Downloads/1.jpg" alt="Birthday Person">
+    </div>
+
+    <div class="countdown" id="countdown">
+        <div class="time-box"><span id="days">00</span>Days</div>
+        <div class="time-box"><span id="hours">5</span>Hrs</div>
+        <div class="time-box"><span id="minutes">10</span>Min</div>
+        <div class="time-box"><span id="seconds">00</span>Sec</div>
+    </div>
+
+    <div class="message-card">
+        <h3>A Special Note</h3>
+        <p>I built this little corner of the internet just for you. May your year be as bright and wonderful as you are!</p>
+        <button id="confettiBtn">Click for a Surprise!</button>
+    </div>
+
+    <script src="js/script.js"></script>
 </body>
 </html>
